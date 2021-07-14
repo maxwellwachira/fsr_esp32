@@ -22,10 +22,6 @@
     <!--animate-->
     <link rel="stylesheet" type="text/css" href="assets/3rdparties/animate/animate.css">
 
-    <!--pogo-slider-->
-    <link rel="stylesheet" href="assets/3rdparties/pogoslider/pogo-slider.min.css">
-
-
     <!--custom css -->
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 

@@ -22,8 +22,6 @@
     <!--animate-->
     <link rel="stylesheet" type="text/css" href="assets/3rdparties/animate/animate.css">
 
-    <!--pogo-slider-->
-    <link rel="stylesheet" href="assets/3rdparties/pogoslider/pogo-slider.min.css">
 
 
     <!--custom css -->
@@ -118,17 +116,7 @@
           $("#password").attr("type", "password");
         }
       });
-      $("#toggle-confirmPassword").click(function() {
-
-        $(this).toggleClass("fa-eye fa-eye-slash");
-        var input = $("#confirmPassword").attr("type");
-        if (input == "password") {
-          $("#confirmPassword").attr("type", "text");
-        } else {
-          $("#confirmPassword").attr("type", "password");
-        }
-      });
-
+     
      
 
       
