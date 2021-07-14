@@ -203,7 +203,7 @@
                             console.log(response);
                             if (response.message == 'success') {
                             
-                              $('#response').html('<div class="alert alert-success animated bounce" role="alert"><i class="fa fa-check animated swing infinite"></i>Sign Up Success. Click <a href = "/">Here to Sign In</a> </div>');
+                              $('#response').html('<div class="alert alert-success animated bounce" role="alert"><i class="fa fa-check animated swing infinite"></i>Sign Up Success. <br>Click <a href = "/">Here to Sign In</a> </div>');
                               
                               // clear the fields
                               clear_register_field();

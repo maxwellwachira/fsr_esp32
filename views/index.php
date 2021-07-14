@@ -33,7 +33,7 @@
   </head>
   <body>
     <nav class="navbar navbar-expand-lg mb-0">
-            <a class="navbar-brand text-white" href="#">FSR ESP32</a>
+            <a class="navbar-brand text-white" href="/">FSR ESP32</a>
     </nav>
      <div class="bg-light h-100">
       <div class="container">
@@ -135,7 +135,7 @@
 
                   }else if(response.message === 'success'){
                     if(!returnurl){
-                       window.location = '/';
+                       window.location = '/graphs';
                       }else {
                          window.location = returnurl;
                       }

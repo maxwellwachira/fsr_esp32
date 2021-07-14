@@ -15,9 +15,9 @@ class PagesController
 		return Application::$app->router->renderView('index', $params);
 	}
 
-	public function pro(){
+	public function graphs(){
 		$params = [];
-		return Application::$app->router->renderView('pro', $params);
+		return Application::$app->router->renderView('data', $params);
 	}
 
 	public function about(){

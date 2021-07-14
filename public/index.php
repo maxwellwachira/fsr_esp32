@@ -25,7 +25,7 @@ $app->router->get('/', [PagesController::class, 'home']);
 $app->router->get('/home', [PagesController::class, 'home']);
 $app->router->post('/custom-session', [PagesController::class, 'customSession']);
 $app->router->get('/404', [PagesController::class, 'notFound']);
-$app->router->get('/pro', [PagesController::class, 'pro']);
+$app->router->get('/graphs', [PagesController::class, 'graphs']);
 $app->router->get('/contact-us', [PagesController::class, 'contactUs']);
 $app->router->post('/contact-us', [MailController::class, 'sendContactform']);
 $app->router->get('/about', [PagesController::class, 'about']);
