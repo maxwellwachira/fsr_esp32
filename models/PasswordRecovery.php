@@ -1,14 +1,13 @@
 <?php
 
 namespace app\models;
-use app\core\Model;
 use app\config\Database;
 use app\controllers\MailController;
 
 /**
  * 
  */
-class PasswordRecovery extends Model
+class PasswordRecovery
 {
 	public $con;
 	public $email;

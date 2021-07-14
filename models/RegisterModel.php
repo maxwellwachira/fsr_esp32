@@ -1,14 +1,13 @@
 <?php
 
 namespace app\models;
-use app\core\Model;
 use app\config\Database;
 use app\controllers\MailController;
 use \Kreait\Firebase\Factory;
 /**
  * 
  */
-class RegisterModel extends Model
+class RegisterModel
 {
 	public $con;
 	public $firstname;

@@ -1,7 +1,6 @@
 <?php
 
 namespace app\models;
-use app\core\Model;
 use app\config\Database;
 use app\core\Application;
 use app\core\Controller;
@@ -10,7 +9,7 @@ use app\core\Request;
 /**
  * 
  */
-class LoginModel extends Model
+class LoginModel
 {
 	public $con;
 	public $firstname;
