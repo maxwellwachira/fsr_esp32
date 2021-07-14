@@ -142,7 +142,7 @@
 
                   }else if(response.message === 'success'){
                     // clear the fields
-                    $('#op').html('<div class="alert alert-success animated bounce" role="alert"><i class="fa fa-tick"></i> Your password has been reset succesfully. <br>Click here to log in to your account <a href="/sign-in">Log in</a> </div>');
+                    $('#op').html('<div class="alert alert-success animated bounce" role="alert"><i class="fa fa-tick"></i> Your password has been reset succesfully. <br>Click here to log in to your account <a href="/">Log in</a> </div>');
                       //$('#remove-form').html('');
                       clear_register_field();
                   }

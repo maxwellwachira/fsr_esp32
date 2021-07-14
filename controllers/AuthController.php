@@ -247,7 +247,7 @@ class AuthController
 		if($method === 'get'){
 			$body = Application::$app->request->getBody();
 			if(!$body['returnurl']){
-				Application::$app->request->redirect('/sign-in');
+				Application::$app->request->redirect('/');
 				exit();
 			}else{
 				Application::$app->request->redirect($body['returnurl']);

@@ -16,6 +16,12 @@ class PagesController
 	}
 
 	public function graphs(){
+		session_start();
+		if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
+			session_destroy();
+		   	Application::$app->request->redirect('/');
+		    exit;
+		}
 		$params = [];
 		return Application::$app->router->renderView('data', $params);
 	}
