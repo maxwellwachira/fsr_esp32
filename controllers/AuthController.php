@@ -2,14 +2,13 @@
 
 namespace app\controllers;
 use app\core\Application;
-use app\core\Controller;
 use app\core\Request;
 use app\models\RegisterModel;
 use app\models\LoginModel;
 use app\models\otp;
 use app\models\PasswordRecovery;
 use app\core\csrf;
-use app\controllers\MessageController;
+
 /**
  * 
  */
@@ -27,7 +26,7 @@ class AuthController
 	public function __construct(){
 		$this->csrf = new csrf();
 		//$this->otp = new otp();
-		$this->sendtext = new MessageController();
+		//$this->sendtext = new MessageController();
 	}
 	
 	public function loginGet(){

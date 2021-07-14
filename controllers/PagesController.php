@@ -7,7 +7,7 @@ use app\core\Request;
 use app\models\SubscribeModel;
 use app\models\CustomSession;
 
-class PagesController extends Controller
+class PagesController
 {
 
 	public function home(){
