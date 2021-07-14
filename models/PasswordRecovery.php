@@ -107,7 +107,7 @@ class PasswordRecovery
 	    $id = $row['id'];
 
 	    $mj_from_email = 'info@beyond-grades.com';
-	    $mj_from_name = 'Beyond Grades';
+	    $mj_from_name = 'FSR ESP32';
 	    $mj_to_email = $row['email'];
 	    $mj_to_name = $row['firstname']. ' '.$row['secondname'];
 	    $mj_subject = 'Password Recovery';
